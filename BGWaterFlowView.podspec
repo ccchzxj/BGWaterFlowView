@@ -8,11 +8,11 @@ Pod::Spec.new do |spec|
   #对开源项目的描述
   spec.summary      = 'BGWaterFlowView是一个基于UICollectionView封装瀑布流控件，内部有封装好刷新的视图'
   #开源项目的首页
-  spec.homepage     = 'https://github.com/liuchungui/BGWaterFlowView'
+  spec.homepage     = 'https://github.com/ccchzxj/BGWaterFlowView'
   #作者信息
   spec.author       = {'liuchungui' => '404468494@qq.com', 'yangshebing' => '811068990@qq.com'}
   #项目的源和版本号
-  spec.source       = { :git => 'https://github.com/liuchungui/BGWaterFlowView.git', :tag => spec.version }
+  spec.source       = { :git => 'https://github.com/ccchzxj/BGWaterFlowView.git', :tag => spec.version }
   #源文件，这个就是供第三方使用的源文件
   spec.source_files = "BGWaterFlowView/*"
   #适用于ios7及以上版本
@@ -22,6 +22,6 @@ Pod::Spec.new do |spec|
 
   #spec.dependency 'EGOTableViewPullRefresh', '~> 0.1.0'
   spec.dependency 'BGUIFoundationKit', '~> 0.0.2'
-  spec.dependency 'SDWebImage', '~> 3.7.3'
+  spec.dependency 'SDWebImage', '~> 5.0'
 
 end
